@@ -1,0 +1,152 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.login {
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Main Styles */
+.main {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin-bottom: 20px;
+}
+.ved {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-navigation h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact p {
+    margin-bottom: 5px;
+}
+
+.footer-contact h2 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.footer-copyright {
+    margin-top: 77px;
+}
